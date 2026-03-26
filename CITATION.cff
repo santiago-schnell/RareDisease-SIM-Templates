@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Decision-grade evidence in rare diseases: R simulation templates"
+version: "1.0.0"
+repository-code: "https://github.com/santiago-schnell/RareDisease-SIM-Templates"
+# doi: "[zenodo-doi]"
+date-released: "2026-03-26"
+authors:
+  - family-names: "Schnell"
+    given-names: "Santiago"
+    orcid: "https://orcid.org/0000-0002-5003-0064"
+    affiliation: "Department of Mathematics, Dartmouth, Hanover, NH, USA"
+abstract: >
+  Lightweight R simulation templates accompanying the review manuscript
+  "Decision-grade evidence in rare diseases: A validity-first framework
+  for design, small-sample analysis, and evidence borrowing"
+  (Orphanet Journal of Rare Diseases, under review). The repository provides
+  synthetic-data templates for simulation-based operating-characteristic
+  calibration and assumption stress-testing across representative method
+  families: group sequential monitoring, MAMS down-selection, randomization-
+  based inference, MAP / robust-MAP borrowing, and external-control weighting
+  with transportability diagnostics. The repository is a support package for
+  the manuscript rather than a validated clinical-trial software product.
+keywords:
+  - rare disease
+  - clinical trial simulation
+  - operating characteristics
+  - estimand
+  - group sequential design
+  - MAMS
+  - Bayesian borrowing
+  - external controls
+  - R
+license: "MIT"
+related-resources:
+  - type: "article"
+    title: "Decision-grade evidence in rare diseases: A validity-first framework for design, small-sample analysis, and evidence borrowing"
+    authors:
+      - family-names: "Schnell"
+        given-names: "Santiago"
+    journal: "Orphanet Journal of Rare Diseases"
+    status: "under-review"
