@@ -1,0 +1,5 @@
+scenario,delta,sigma,n_total,heterogeneity_level
+null,0,1,30,low
+small_effect,0.2,1,30,low
+moderate_effect,0.5,1,30,moderate
+prior_data_conflict,0.5,1,30,high
